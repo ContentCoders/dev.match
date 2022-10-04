@@ -1,6 +1,6 @@
 
 export function WelcomeMessage() {
     return (
-        <div>Test</div>
+        <div>Test!</div>
     )
 }
