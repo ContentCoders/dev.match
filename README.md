@@ -1,3 +1,5 @@
+### Hey Everyone! We're ContentCoders (made up of Cynthia & Sagar) and we came up with this cool idea to help make the process of finding other developer friends easier via this web platform. The aim of dev.match() is to allow developers to connect and meet people that want to create awesome projects together :)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
