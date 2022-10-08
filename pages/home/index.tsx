@@ -1,5 +1,5 @@
 import Navbar from "../../components/Navbar"
-import { WelcomeMessage } from "./component"
+import { WelcomeMessage } from "./components"
 
 function Home() {
     return (
