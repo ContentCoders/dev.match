@@ -1,12 +1,11 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-// import styles from '../styles/Home.module.css'
-import { HeadingLarge, HeadingMedium } from 'baseui/typography'
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import { Hero } from './index/components'
 
 const Home: NextPage = () => {
+
   return (
     <>
       <Head>
@@ -17,6 +16,7 @@ const Home: NextPage = () => {
 
       <Navbar />
       <Hero />
+      <Footer />
     </>
   )
 }
