@@ -3,29 +3,26 @@ import Logo from '../Logo'
 
 
 export default function Footer() {
+    //get current year
+    const year = new Date().getFullYear()
+
     return (
         <StyledFooter>
             <StyledFooterContent>
-                <StyledFooterLogo>
-                    <Logo />
-                </StyledFooterLogo>
-                {/* <StyledFooterLinks>
-                    <StyledFooterLink href='' target='_blank'>About</StyledFooterLink>
-                    <StyledFooterLink href='' target='_blank'>Contact</StyledFooterLink>
-                    <StyledFooterLink href='' target='_blank'>Terms of Service</StyledFooterLink>
-                    <StyledFooterLink href='' target='_blank'>Privacy Policy</StyledFooterLink>
-                </StyledFooterLinks> */}
+                <p>dev.match()</p>
+                <span>© Copyright {year}</span>
             </StyledFooterContent>
         </StyledFooter>
     )
 }
 
 const StyledFooter = styled.div`
-    background-color: #4158D0;
+    background-color: #fff;
 `
 const StyledFooterContent = styled.div`
     display: flex;
-    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
     align-items: center;
     padding: 1rem 2rem;
     max-width: 1200px;
